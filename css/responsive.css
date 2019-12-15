@@ -1,0 +1,156 @@
+/* Laptops and desktops (1100-1405px) */
+@media only screen and (min-width: 1100px) and (max-width: 1405px) {
+
+
+    .row{
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+
+/* Tablets in landscape mode (981-1100px) */
+@media only screen and (min-width: 981px) and (max-width: 1100px) {
+
+      .row{
+        width: 90%;
+        margin: auto;
+    }
+
+
+}
+
+
+/* Tablets in portrait mode (768-980px) */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+      .row{
+        width: 90%;
+        margin: auto;
+    }
+    .main-nav{
+        display: none;
+    }
+    .hero-text-box .span_1_of_2{
+        width: 100%;
+    } 
+    .span_1_of_4{
+        width: 48.2%;
+    }
+    
+    .hero-text {
+
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+}
+    
+    .header-img img {
+    margin-top: 5%;
+    width: 60%;
+     margin-left: 15%;
+    display: block;
+    border-radius: 50%;
+    border: 1.5rem solid #7D5C87;
+}
+
+}
+
+
+
+/* Smartphones in landscape mode (480-768px) */
+@media only screen and ( min-width: 480px ) and ( max-width: 767px ) {
+         .row{
+        width: 90%;
+        margin: auto;
+    }
+    .main-nav{
+        display: none;
+    }
+    .hero-text-box .span_1_of_2{
+        width: 100%;
+    } 
+    .span_1_of_4{
+        width: 100%;
+    }
+    
+    .hero-text {
+
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+}
+    
+    .header-img img {
+    margin-top: 5%;
+    width: 60%;
+     margin-left: 15%;
+    display: block;
+    border-radius: 50%;
+    border: 1.5rem solid #7D5C87;
+}
+    
+     .contact_section{
+        text-align: center;
+    }
+
+
+    
+}
+
+
+/* Smartphones in portrait mode (0-479px) */
+@media only screen and ( max-width: 479px ) {
+    
+         .row{
+        width: 90%;
+        margin: auto;
+    }
+    .main-nav{
+        display: none;
+    }
+    .hero-text-box .span_1_of_2{
+        width: 100%;
+    } 
+    .span_1_of_4{
+        width: 100%;
+    }
+    
+    .hero-text {
+
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+}
+    
+    .header-img img {
+    margin-top: 5%;
+    width: 60%;
+     margin-left: 15%;
+    display: block;
+    border-radius: 50%;
+    border: 1.5rem solid #7D5C87;
+}
+    
+    .contact_section{
+        text-align: center;
+    }
+    .contact_section .social{
+        text-align: left;
+        width: 40%;
+        margin-left: 35%;
+   
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
